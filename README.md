@@ -7,7 +7,7 @@ public class XO {
 
         int xcount = 0;
         int ocount = 0;
-        str.toLowerCase();
+        str = str.toLowerCase();
         char[] checkingArray = str.toCharArray();
         for (int i = 0; i < checkingArray.length; i++) {
             if (checkingArray[i] == 'x') {
